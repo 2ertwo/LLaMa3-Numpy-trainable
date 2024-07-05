@@ -50,7 +50,7 @@ $$
 \bar{a}_i = \frac{a_i}{\mathbf{RMS}(\mathbf{a})} g_i, where \mathbf{RMS}(\mathbf{a}) = \sqrt{\frac{1}{n}\sum_{i=1}^{n}a_i^2}
 $$
 
-实际操作中为了防止分母变成零,加入一个$\epsilon > 0$,通常取 1e-6:
+实际操作中为了防止分母变成零,加入一个$$\epsilon > 0$$,通常取 1e-6:
 
 $$
 \mathbf{RMS}(\mathbf{a}) = \sqrt{\frac{1}{n}\sum_{i=1}^{n}a_i^2 + \epsilon}
